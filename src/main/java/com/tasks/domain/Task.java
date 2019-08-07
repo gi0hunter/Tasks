@@ -12,7 +12,6 @@ import java.time.LocalDate;
 @Entity
 @Data
 @AllArgsConstructor
-
 public class Task {
 
     @Id
@@ -22,5 +21,9 @@ public class Task {
     @JsonFormat(pattern = "dd/mm/yyyy")
     private LocalDate duodate;
     private boolean completed;
+
+    public Task(){
+
+    }
 
 }
