@@ -1,6 +1,8 @@
-h2{color: royalblue;
+@import "~bootstrap/dist/css/bootstrap.min.css";
+h1 {
+    color: seagreen;
 }
-
-#TaskPanel{
-margin-top: 52px;
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

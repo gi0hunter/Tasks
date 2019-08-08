@@ -1,6 +1,7 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
 h2{color: royalblue;
 }
 
 #TaskPanel{
-    margin-top: 52px;
+    margin-top: 40px;
 }

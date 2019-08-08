@@ -19,9 +19,6 @@ import { ModalModule } from 'ngx-bootstrap/modal';
   ],
   imports: [
       BrowserModule,
-      BsDropdownModule.forRoot(),
-      TooltipModule.forRoot(),
-      ModalModule.forRoot()
   ],
 
   providers: [],
